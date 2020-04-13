@@ -35,3 +35,4 @@ build/
 ## spring
 # application-dev.properties
 
+node_modules
