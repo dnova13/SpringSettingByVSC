@@ -15,8 +15,8 @@ public class BoardServiceImpl implements BoardService {
     private BoardDAO bDAO;
 
     @Override
-    public void creatBoard() {
-        // TODO Auto-generated method stub
+    public void creatBoard(BoardDTO bDto) {
+        bDAO.insertBoard(bDto);
     }
 
     @Override

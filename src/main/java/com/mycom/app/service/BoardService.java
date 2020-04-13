@@ -10,6 +10,6 @@ import org.springframework.stereotype.Service;
 public interface BoardService {
 
     public List<BoardDTO> getBoardList();
-    public void creatBoard();
+    public void creatBoard(BoardDTO bDto);
 
 }
